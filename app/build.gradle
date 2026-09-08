@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.locintel.mpesabridge'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.locintel.mpesabridge'
+        minSdk 26
+        targetSdk 35
+        versionCode 140
+        versionName '1.4.0'
+    }
+}
